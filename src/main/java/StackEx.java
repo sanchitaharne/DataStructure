@@ -9,6 +9,12 @@ public class StackEx {
         stack.push("second");
         stack.push("third");
 
+        Deque<String> queue = new ArrayDeque<>();
+        queue.offer("first");
+        queue.offer("second");
+        queue.offer("third");
+
+        System.out.println(queue);
         System.out.println(stack);
         System.out.println(stack.peek());
         stack.pop();
